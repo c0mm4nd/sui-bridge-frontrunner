@@ -29,6 +29,16 @@ How to find your tx nonce
 3. 编辑`frontrunner.py`来修改nonce为你的跨链交易，并设置PRIVATE_KEY环境变量。
 4. 运行`uv run frontrunner.py`来抢跑。
 
+## FAQ
+
+Q: 如何提前得知下个小时00分会有多少解锁？
+
+A: 懒得写代码了建议肉眼看 https://etherscan.io/tokentxns?a=0x312e67b47a2a29ae200184949093d92369f80b53&p=2 如图，方向为out的23hrs ago的就是下个00分会解锁的金额
+<img width="2940" height="1656" alt="image" src="https://github.com/user-attachments/assets/d5d96d42-c333-4c43-84aa-34aee50872f6" />
+
+
+
+
 ## Disclaimer
 
 This is just a small tool I use to bridge suiUSDT that has been depeg due to MMT & Buidlpad activities from Sui to ETH. I am not responsible for any losses that may occur as a result of using this code.
