@@ -18,12 +18,12 @@ How to find your tx nonce
 
 0. Suggest to use uv
 1. Install dependencies: `uv pip install -r requirements.txt`
-2. Edit the nonce `frontrunner.py` .
+2. Edit the nonce `frontrunner.py`, and set the PRIVATE_KEY environment variable.
 3. Run `frontrunner.py` to frontrun.
 
 0. 建议使用uv
 1. 安装依赖：`uv pip install -r requirements.txt`
-2. 如果想更改阈值，请编辑`frontrunner.py`。
+2. 编辑`frontrunner.py`来修改nonce为你的跨链交易，并设置PRIVATE_KEY环境变量。
 3. 运行`uv run frontrunner.py`来抢跑。
 
 ## Disclaimer
