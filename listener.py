@@ -5,7 +5,7 @@ import requests
 RPC = "https://rpc.flashbots.net/"
 THRESHOLD = 1000
 
-LIMIT = 1800000000000000
+LIMIT = 5000000000000000 # Sui raised limit @ https://etherscan.io/tx/0xd9f503cd0c2694260c8d9db6af42c4f2f82ed74f41c5d12b09c870b1ec1a79e3
 
 def calcWindowAmountUsed() -> int:
     response = requests.post(
