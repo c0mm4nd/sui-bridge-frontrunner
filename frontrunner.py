@@ -146,7 +146,7 @@ def send_transaction(nonce):
             },
         ).transact(
             {
-                "from": wallet,
+                "from": wallet.address,
                 "gas": 856551,
                 "maxFeePerGas": Web3.to_wei("10", "gwei"),
                 "maxPriorityFeePerGas": Web3.to_wei("5", "gwei"),
